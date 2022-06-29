@@ -11,6 +11,6 @@ qmk flash -kb crkbd -km razielar
 ## Useful links to practice typing
 
 * [English typing](https://www.colemak.academy/)
-* [Code typing]()
+* [Code typing](https://www.speedcoder.net/lessons/py/1/)
 
 
