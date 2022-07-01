@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //---------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
      TD(TD_CAPLOCK), KC_Z,   KC_X,    KC_C,    KC_V,    KC_B,                 KC_N,    KC_M,    KC_COMM, KC_DOT,  TD(TD_SLA), RSFT_T(KC_ENT),
   //---------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                         KC_LCTL, LOWER, KC_SPC,     KC_SPC, RAISE, TD(TD_ALT)
+                                         KC_LCTL, LOWER, KC_SPC,     KC_ENT, RAISE, TD(TD_ALT)
                                       //|--------------------------|  |--------------------------|
 
 
@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
      KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12,                               KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_BSLS, KC_ENT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI, LOWER, KC_SPC,    KC_SPC, KC_TRNS, KC_RALT
+                                          KC_LGUI, LOWER, KC_SPC,    KC_ENT, KC_TRNS, KC_RALT
                                       //|--------------------------|  |--------------------------|
   ),
 
@@ -91,7 +91,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
      XXXXXXX, RGB_HUD, RGB_SAD, RGB_VAD, RGB_SPD, XXXXXXX,                        XXXXXXX, XXXXXXX,  XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                         KC_LCTL, KC_TRNS, KC_SPC,    KC_SPC, KC_TRNS, KC_RALT \
+                                         KC_LCTL, KC_TRNS, KC_SPC,    KC_ENT, KC_TRNS, KC_RALT \
                                       //|--------------------------|  |--------------------------|
   )
 };
