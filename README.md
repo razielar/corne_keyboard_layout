@@ -18,11 +18,14 @@ TD= tap-dance.
 
 ## 2) <a id='brief'></a> Brief description of the files
 
-* **1)** rules.mk: basic configuration such as: enable tap-dance, rgb, oled-screen on, etc.
+* **1)** `keymap.c`: (the most important file)
 
-* **2)** glcdfont.c: fonts, we did not modified. 
+* **2)** config.h: defines which is the master, tap-dance time, rgb-brightness, all rbg-effects, etc. 
 
-* **3)** config.h: defines which is the master, tap-dance time, rgb-brightness, all rbg-effects, etc. 
+* **3)** rules.mk: basic configuration such as: enable tap-dance, rgb, oled-screen on, etc.
+
+* **4)** glcdfont.c: fonts, we did not modified. 
+
 
 ## 3) <a id='compile'></a> Compile qmk
 
