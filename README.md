@@ -2,7 +2,12 @@
 
 Source README located [here](https://github.com/qmk/qmk_firmware)
 
-## 1) Layout
+1. [Layout](#layout)
+2. [Brief description of the files](#brief)
+3. [Compile qmk](#compile)
+4. [Useful links to practice typing](#links)
+
+## 1) <a id='layout'></a> Layout
 
 <div align="center">
 <img src="https://github.com/razielar/corne_keyboard_layout/blob/main/img/corne_layout.png" alt="logo"></img>
@@ -11,16 +16,16 @@ Source README located [here](https://github.com/qmk/qmk_firmware)
 Keys-code located [here](https://config.qmk.fm/#/mechlovin/infinity875/LAYOUT_all). If a key is defined once, means either is the same key in the 4 layers or is not defined in other layers.  
 TD= tap-dance.
 
-## 2) Brief description of the files
+## 2) <a id='brief'></a> Brief description of the files
 
 
-## 3) Compile qmk
+## 3) <a id='compile'></a> Compile qmk
 
 ``` bash
 qmk flash -kb crkbd -km razielar
 ```
 
-## 4) Useful links to practice typing
+## 4) <a id='links'></a> Useful links to practice typing
 
 * [English typing](https://www.colemak.academy/)
 * [Code typing](https://www.speedcoder.net/lessons/py/1/)
