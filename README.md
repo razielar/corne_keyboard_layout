@@ -11,13 +11,16 @@ Source README located [here](https://github.com/qmk/qmk_firmware)
 Keys-code located [here](https://config.qmk.fm/#/mechlovin/infinity875/LAYOUT_all). If a key is defined once, means either is the same key in the 4 layers or is not defined in other layers.  
 TD= tap-dance.
 
-## 2) Compile qmk
+## 2) Brief description of the files
+
+
+## 3) Compile qmk
 
 ``` bash
 qmk flash -kb crkbd -km razielar
 ```
 
-## 3) Useful links to practice typing
+## 4) Useful links to practice typing
 
 * [English typing](https://www.colemak.academy/)
 * [Code typing](https://www.speedcoder.net/lessons/py/1/)
