@@ -18,6 +18,8 @@ TD= tap-dance.
 
 ## 2) <a id='brief'></a> Brief description of the files
 
+* **1)** rules.mk: basic configuration such as: enable tap-dance, rgb, etc.
+
 
 ## 3) <a id='compile'></a> Compile qmk
 
