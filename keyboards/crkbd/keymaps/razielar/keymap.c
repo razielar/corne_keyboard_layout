@@ -36,6 +36,7 @@ enum custom_keycodes {
   MACRO2
 };
 
+// Define Tap-dance: 
 enum {
     TD_PC,
     TD_COMI,
@@ -100,7 +101,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // Tap Dance definitions
 qk_tap_dance_action_t tap_dance_actions[] = {
     // Tap once for ;, twice for :
-  [TD_PC] = ACTION_TAP_DANCE_DOUBLE(KC_SCLN, LSFT(KC_SCLN)),        // Once: ';'; tap-dance: ':'  
+  [TD_PC] = ACTION_TAP_DANCE_DOUBLE(KC_SCLN, LSFT(KC_SCLN)),        // Once: ';'; tap-dance: ':'      
   [TD_COMI] = ACTION_TAP_DANCE_DOUBLE(KC_QUOT, LSFT(KC_QUOT)),      // Once: '\''; tap-dance: '-'    
   [TD_SLA] = ACTION_TAP_DANCE_DOUBLE(KC_SLSH, LSFT(KC_SLSH)),
   [TD_CAPLOCK] = ACTION_TAP_DANCE_DOUBLE(KC_LSFT, KC_CAPS),         // Once: left-shif; tap-dance: caplock (all rbg keyboard in green)
