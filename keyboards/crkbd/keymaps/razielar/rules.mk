@@ -1,5 +1,5 @@
 RGBLIGHT_ENABLE    = no # Basic RBG
-RGB_MATRIX_ENABLE  = WS2812 # Better RBG
+RGB_MATRIX_ENABLE  = WS2812 # Better RBG (Matrix RGB)
 MOUSEKEY_ENABLE    = no
 NKRO_ENABLE        = yes # default yes
 OLED_DRIVER_ENABLE = yes
