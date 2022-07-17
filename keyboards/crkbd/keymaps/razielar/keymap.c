@@ -27,6 +27,7 @@ enum layers {
 
 // Custom keycodes for layer keys
 // Dual function escape with left command
+// MACRO1 & MACRO2 are used to put custom strings
 enum custom_keycodes {
   QWERTY = SAFE_RANGE,
   LOWER,
@@ -156,6 +157,7 @@ void rgb_matrix_indicators_user(void) {
   #endif
 }
 
+// Oled screen START
 #ifdef OLED_DRIVER_ENABLE
 oled_rotation_t oled_init_user(oled_rotation_t rotation) { return OLED_ROTATION_270; }
 
@@ -375,7 +377,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 #endif
     // set_timelog();
   }
-
+  // Event press layers
   switch (keycode) {
     case LOWER:
       if (record->event.pressed) {
@@ -428,11 +430,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 }
 
 #ifdef RGB_MATRIX_ENABLE
-
+// Whe computer is suspended do the same with the keyboard
 void suspend_power_down_user(void) {
     rgb_matrix_set_suspend_state(true);
 }
-
+// If the computer is wakeup do the same with the keyboard
 void suspend_wakeup_init_user(void) {
     rgb_matrix_set_suspend_state(false);
 }
