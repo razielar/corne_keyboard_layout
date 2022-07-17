@@ -9,6 +9,8 @@ Source README located [here](https://github.com/qmk/qmk_firmware)
 
 ## 1) <a id='layout'></a> Layout
 
+### Key layout
+
 <div align="center">
 <img src="https://github.com/razielar/corne_keyboard_layout/blob/main/img/corne_layout.png" alt="logo"></img>
 </div>
