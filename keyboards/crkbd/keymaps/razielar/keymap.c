@@ -111,6 +111,7 @@ qk_tap_dance_action_t tap_dance_actions[] = {
 int RGB_current_mode;
 
 // Setting ADJUST layer RGB back to default
+// Pressing layer1 and layer2 takes you to layer 3 (_ADJUST)
 void update_tri_layer_RGB(uint8_t layer1, uint8_t layer2, uint8_t layer3) {
   if (IS_LAYER_ON(layer1) && IS_LAYER_ON(layer2)) {
     layer_on(layer3);
@@ -125,17 +126,20 @@ void matrix_init_user(void) {
     #endif
 }
 
+// This code-block put all in green when caps-log is activated 
 void rgb_matrix_indicators_user(void) {
   #ifdef RGB_MATRIX_ENABLE
   switch (biton32(layer_state)) {
     case _RAISE:
       for (int i = 0; i < DRIVER_LED_TOTAL; i++) {
+	// red
           rgb_matrix_set_color(i, 255, 0, 0);
       }
       break;
 
     case _LOWER:
       for (int i = 0; i < DRIVER_LED_TOTAL; i++) {
+	// blue
          rgb_matrix_set_color(i, 0, 0, 255);
       }
       break;
@@ -143,6 +147,7 @@ void rgb_matrix_indicators_user(void) {
     default:
         if (host_keyboard_leds() & (1<<USB_LED_CAPS_LOCK)) {
                   for (int i = 0; i < DRIVER_LED_TOTAL; i++) {
+		    // green; this is for caps-log
           rgb_matrix_set_color(i, 0, 255, 0);
       }
        }
