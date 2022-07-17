@@ -20,6 +20,8 @@ TD= tap-dance.
 
 ### Led layout 
 
+We have 6 back-leds, and 21 (7-27) front-leds. 
+
 <div align="center">
 <img src="https://github.com/razielar/corne_keyboard_layout/blob/main/img/corne_ledsNum.png" alt="logo"></img>
 </div>
