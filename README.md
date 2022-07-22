@@ -40,7 +40,7 @@ We have 6 back-leds, and 21 (7-27) front-leds.
 
 ## 3) <a id='compile'></a> Compile qmk
 
-Click two times the reset-button (twice each for side).
+Click twice the reset-button (do it for each side).
 
 
 ``` bash
