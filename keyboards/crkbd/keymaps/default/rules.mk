@@ -5,7 +5,7 @@ RGB_MATRIX_ENABLE  = yes
 OLED_ENABLE     = yes
 OLED_DRIVER     = SSD1306
 # TAP_DANCE:
-TAP_DANCE_ENABLE = yes
+# TAP_DANCE_ENABLE = yes
 # Not used: 
 MOUSEKEY_ENABLE = no       # Mouse keys
 # EXTRAS:
